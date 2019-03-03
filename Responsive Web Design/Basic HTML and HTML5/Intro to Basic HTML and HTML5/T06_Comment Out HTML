@@ -1,23 +1,24 @@
-Before:
-<!--
-<h1>Hello World</h1>
-<h2>CatPhotoApp</h2>
-<p>Hello Paragraph</p>
--->
+Web developers traditionally use lorem ipsum text as placeholder text. The ‘lorem ipsum’ text is randomly scraped from a famous passage by Cicero of Ancient Rome. 
 
-Comment out your h1 element so that it is not visible on your page
-Leave your h2 element uncommented so that it is visible on your page. 
-Comment out your p element so that it is not visible on your page.
-Be sure to close each of your comments with --> 
-Do not change the order of the h1, h2 or p in the code. 
+Lorem ipsum text has been used as placeholder text by typesetters since the 16th century, and this tradition continues on the web. 
+
+Well, 5 centuries is long enough. Since we’re building a CatPhotoApp, let’s use something called kitty ipsum text. 
+
+Replace the text inside your p element with the first few words of this kitty ipsum text: Kitty upsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff. 
+
+
+Before:
+<h1>Hello World</h1>
+
+<h2>CatPhotoApp</h2>
+
+<p>Hello Paragraph</p>
+
+Your p element should contain the first few words of the provided kitty ipsum text. 
 
 After:
-<!--
 <h1>Hello World</h1>
--->
 
 <h2>CatPhotoApp</h2>
 
-<!--
-<p>Hello Paragraph</p>
--->
+<p>Kitty ipsum dolor sit amet</p>
