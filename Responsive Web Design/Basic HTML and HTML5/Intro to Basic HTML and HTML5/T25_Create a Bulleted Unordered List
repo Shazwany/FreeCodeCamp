@@ -1,0 +1,113 @@
+HTML has a special element for creating unordered list, or bullet point-style lists. 
+
+Unordered lists start with a <ul> element. Then they contain some number of <li> elements. 
+
+For example:
+<ul>
+	<li>milk</li>
+	<li>cheese</li>
+</ul>
+
+Would create a bullet point-style list of “milk” and “cheese”.
+
+Remove the last two p elements, and create an unordered list of three things that cats love at the bottom of the page. 
+
+Notes:
+- Create a ul element.
+- You should have 3 li elements within your ul element.
+- Make sure your ul element has a closing tag. 
+- Make sure your li elements have closing tags. 
+
+
+Before:
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>Click here for <a href="#">cat photos</a>.</p>
+
+<a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+
+<p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+<p class="red-text">Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+
+
+After:
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+<style>
+  .red-text {
+    color: red;
+  }
+
+  h2 {
+    font-family: Lobster, Monospace;
+  }
+
+  p {
+    font-size: 16px;
+    font-family: Monospace;
+  }
+
+  .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 50%;
+  }
+
+  .smaller-image {
+    width: 100px;
+  }
+</style>
+
+<h2 class="red-text">CatPhotoApp</h2>
+
+<p>Click here for <a href="#">cat photos</a>.</p>
+
+<a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back. "></a>
+
+<ul>
+  <li>Kitty ipsum dolor sit amet</li>
+  <li>Shed everywhere shed everywhere</li>
+  <li>Stretching</li>
+  <li>Attack your ankles</li>
+  <li>Chase the red dot</li>
+  <li>Hairball run catnip</li>
+  <li>Eat the grass sniff</li>
+</ul>
+
+<ul>
+  <li>Purr</li>
+  <li>Jump</li>
+  <li>Eat the grass</li>
+  <li>Rip the couch</li>
+  <li>scratched</li>
+  <li>sunbathe</li> 
+  <li>shed everywhere</li> 
+  <li>sleep in the sink</li> 
+</ul>
