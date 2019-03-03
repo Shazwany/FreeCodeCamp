@@ -1,3 +1,16 @@
+Now, let’s change the colour of some of our text. 
+
+We can do this by changing the style of your h2 element. 
+
+The style that is responsible for the colour of an element’s text is the “colour” style. 
+
+Here’s how you would set your h2 element’s text colour to blue:
+
+<h2 style=”color: blue”>CatPhotoApp</h2>
+
+Change your h2 element’s style, so that its text color is red.
+
+
 Before: (CatPhotoApp text is black.)
 <h2>CatPhotoApp</h2>
 
@@ -11,3 +24,7 @@ After: (CatPhotoApp text is now red.)
 <h2 style="color: red">CatPhotoApp</h2>
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+
+
+FreeCodeCamp is a small nonprofit that helps busy people learn to code for free. It is one of the biggest learning communities on the internet. Together, we’ve created thousands of videos, articles, and coding challenges you can learn from. We also have a network of thousands of local study groups worldwide. It is also one of the top technology websites in the world, and it runs on a fraction of what other top websites spend. 
+People and Projects: Other top websites have thousands of employees. We only have 3 staff to support a wide variety of projects, making your donation a great investment in a highly-efficient non-profit organisation.
