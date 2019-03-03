@@ -1,0 +1,40 @@
+Sometimes, your HTML elements will receive multiple styles that conflict with one another.
+
+For example, your h1 element cannot be both green and pink at the same time.
+
+Let’s see what happens when we create a class that makes text pink, then apply it to an element. Will our class override the body element’s color: green; CSS property?
+
+Create a CSS class called pink-text that gives an element the color pink.
+
+Give your h1 element the class of pink-text.
+
+Notes:
+- Your h1 element should have the class pink-text.
+- Your <style> should have a pink-text CSS class with its color set to pink.
+- Your h1 element should be pink.
+
+Before:
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+</style>
+<h1>Hello World!</h1>
+
+
+After:
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+
+    .pink-text{
+    color: pink;
+  }  
+
+</style>
+<h1 class="pink-text">Hello World!</h1>
