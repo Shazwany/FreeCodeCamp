@@ -1,3 +1,11 @@
+In addition to pixels, you can also specify a border-radius using a percentage. 
+Give your cat photo border-radius of 50%.
+
+Notes:
+- Your image should have a border radius of 50%, making it perfectly circular. 
+- Be sure to use a percentage, instead of a pixel value. 
+
+
 Before:
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
