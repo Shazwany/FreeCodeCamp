@@ -1,3 +1,21 @@
+P elements are the preferred element for normal-sized paragraph text on websites. 
+P is short for “paragraph”. 
+
+You can create a p element like this: 
+<p>I’m a p tag!</p>
+
+Create a p element below your h2 element, and give it the text “Hello Paragraph”. 
+
+
+Before:
+<h1>Hello World</h1>
+<h2>CatPhotoApp</h2>
+
+Create a p element
+Your p element should have the text “Hello Paragraph”. 
+Make sure your p element has a closing tag. 
+
+After:
 <h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
 <p>Hello Paragraph</p>
