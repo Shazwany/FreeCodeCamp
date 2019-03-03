@@ -1,3 +1,9 @@
+Our phone doesn’t have much vertical space. 
+
+Let’s remove the unnecessary elements, so we can start building our CatPhotoApp.
+
+Delete your h1 elements, so we can simplify our view. 
+
 Before:
 <h1>Hello World</h1>
 
