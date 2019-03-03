@@ -1,15 +1,24 @@
+Commenting is a way that you can leave comments within your code, without affecting the code itself. 
+
+Commenting is also a convenient way to make code inactive without having to delete it entirely.
+
+You can start a comment with <!-- and end a comment with →
+
+Uncomment your h1, h2, and p elements.
+
 Before:
+<!--
 <h1>Hello World</h1>
-
 <h2>CatPhotoApp</h2>
-
 <p>Hello Paragraph</p>
+-->
 
-Your p element should contain the first few words of the provided kitty ipsum text. 
+Make your h1 element visible on your page by uncommenting it. 
+Make your h2 element visible on your page by uncommenting it. 
+Make your p element visible on your page by uncommenting it. 
+Be sure to delete all trailing comment tags, i.e. -->
 
 After:
 <h1>Hello World</h1>
-
 <h2>CatPhotoApp</h2>
-
-<p>Kitty ipsum dolor sit amet</p>
+<p>Hello Paragraph</p>
