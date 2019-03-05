@@ -1,0 +1,36 @@
+You can easily decrement or decrease a variable by one with the -- operator.
+
+i --; 
+
+Is the equivalent of:
+
+i = i - 1;
+
+Note:
+The entire line becomes i--; , eliminating the need for the equal sign.
+
+Instructions:
+Change the code to use the -- operator on myVar.
+myVar should equal 10.
+Use the -- operator on myVar.
+Do not change code above the line.
+
+
+Before:
+/**
+* Your output will go here.
+* Any console.log() - type
+* statements will appear in 
+* your browser’s DevTools
+* JavaScript console as well
+*/
+
+var myVar = 11;
+// Only change code below this line
+myVar = myVar - 1;
+
+After:
+var myVar = 11;
+
+// Only change code below this line
+myVar--;
