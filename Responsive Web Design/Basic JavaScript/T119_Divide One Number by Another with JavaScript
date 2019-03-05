@@ -1,0 +1,24 @@
+We can also divide one number by another.
+JavaScript uses the / symbol for division.
+
+Example:
+	myVar = 16 / 2; //assigned 8
+
+Instructions:
+Change the 0 so that the quotient is equal to 2.
+Make the variable quotient equal to 2.
+Use the / operator.
+
+Before:
+/**
+* Your output will go here.
+* Any console.log() - type
+* statements will appear in 
+* your browser’s DevTools
+* JavaScript console as well
+*/
+
+var quotient = 66 / 0;
+
+After:
+var quotient = 66 / 33;
