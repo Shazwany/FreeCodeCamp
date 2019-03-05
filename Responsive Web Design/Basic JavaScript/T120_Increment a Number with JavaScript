@@ -1,0 +1,39 @@
+You can easily increment or add one to a variable with the ++ operator. 
+i++;
+
+Is the equivalent of:
+i = i + 1;
+
+Note:
+The entire line becomes i++; , eliminating the need for the equal sign.
+
+
+Instructions:
+Change the code to use the ++ operator on myVar. 
+myVar should equal 88.
+myVar = myVar should be changed
+Use the ++ operator
+Do not change code above the line
+
+Hint:
+Learn more about Arithmetic operators - Increment (++)
+(https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment_())
+
+Before:
+/**
+* Your output will go here.
+* Any console.log() - type
+* statements will appear in 
+* your browser’s DevTools
+* JavaScript console as well
+*/
+
+var myVar = 87;
+// Only change code below this line
+myVar = myVar + 1;
+
+
+After:
+var myVar = 87;
+// Only change code below this line
+myVar++;  //This means 87 + 1 = 88
